@@ -1,0 +1,173 @@
+body {
+	background-color: #394756;
+	background-color: black;
+	color: #ecd89a;
+	font-family: serif;
+}
+
+.information {
+  margin: 25px auto;
+  border: 1px solid #ecd89a;
+  background-color: black;
+}
+
+.information p{
+	margin: 25px;
+}
+
+h2 {
+	margin: 25px;
+	font-family: cursive;
+}
+
+.carousel-control-prev-icon, .caroursel-control-next-icon{
+	font-size: 30px;
+}
+
+.row {
+	margin: auto;
+}
+
+.btn-outline-primary, .btn, .btn-rounded{
+	border: 1px solid #ecd89a;
+	color: #ecd89a;
+}
+
+.navbar.navbar-dark form .md-form input:focus:not([readonly]) {
+    border-color: #ecd89a;
+}
+
+.md-form input[type=date]:focus:not([readonly]), .md-form input[type=datetime-local]:focus:not([readonly]), .md-form input[type=email]:focus:not([readonly]), .md-form input[type=number]:focus:not([readonly]), .md-form input[type=password]:focus:not([readonly]), .md-form input[type=search-md]:focus:not([readonly]), .md-form input[type=search]:focus:not([readonly]), .md-form input[type=tel]:focus:not([readonly]), .md-form input[type=text]:focus:not([readonly]), .md-form input[type=time]:focus:not([readonly]), .md-form input[type=url]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
+    -webkit-box-shadow: 0 1px 0 0 #ecd89a;
+    box-shadow: 0 1px 0 0 #ecd89a;
+    border-bottom: 1px solid #ecd89a;
+}
+
+/*Gallery Styling*/
+.gallery img {
+	transition: 1s;
+	padding: 15px;
+	width: 100%;
+}
+
+.gallery img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+/*End Gallery Styling*/
+
+/*Landing Page Template CSS -------------------------------------------------- */
+.top-nav-collapse {
+	background-color: rgba(94, 94, 94, 0.8) !important;
+}
+.navbar:not(.top-nav-collapse) {
+	background: transparent !important;
+}
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse) {
+		background: rgba(94, 94, 94, 0.8) !important;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+	.navbar:not(.top-nav-collapse) {
+		background: rgba(94, 94, 94, 0.8) !important;
+	}
+}
+
+footer.page-footer {
+	background-color: #9da4b1;
+}
+/*End Landing Page Template CSS*/
+
+/*Just one button ---------------------------------------------------------------- */
+ .btn-primary.outline {
+	border: 1px solid #ecd89a;
+	color: #0099cc;
+}
+
+.centralizer {
+	margin: 15px auto;
+}
+.btn-sample { 
+  color: #ECD89A; 
+  background-color: #000000; 
+  border-color: #ECD89A; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ECD89A; 
+  background-color: #5C543B; 
+  border-color: #ECD89A; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #000000; 
+  border-color: #ECD89A; 
+} 
+ 
+.btn-sample .badge { 
+  color: #000000; 
+  background-color: #ECD89A; 
+}
+/*End Just one Button*/
+
+/*Table CSS*/
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #ecd89a;
+}
+
+.table thead td {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ecd89a;
+    border-top: 0;
+}
+
+td, th {
+	color: #ecd89a;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #ecd89a;
+}
+/*End Table CSS
+*/
